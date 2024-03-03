@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "react-bootstrap": "^2.10.1",
+    "react-bootstrap-icons": "^1.11.3",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "sass": "^1.71.0"
+  }
+}

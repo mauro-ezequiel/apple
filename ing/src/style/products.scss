@@ -1,0 +1,16 @@
+#container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-height: 78px;
+    display: flex;
+  }
+  h5 {
+    padding-top: 15px;
+    font-size: 14px;
+    color: black;
+  }
+}
