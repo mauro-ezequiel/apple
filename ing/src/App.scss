@@ -1,4 +1,12 @@
 #App {
+  section {
+    width: 100vw;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
   a {
     text-decoration: none;
   }
@@ -6,6 +14,8 @@
     font-size: 0.95em;
     padding: 0.8em;
     font-weight: 400;
+    background-color: #ffff;
+
     #pico {
       font-size: 0.8em;
     }
@@ -15,14 +25,14 @@
 
     #hb-txt {
       font-weight: bold;
-      font-size: 2.8rem;
+      font-size: 2.85rem;
       color: #000;
     }
     #h-txt {
-      font-size: 2.8rem;
+      font-size: 2.85rem;
       font-weight: 600;
-      padding: 0 5.8% 0 5.8%;
-      color: rgb(134, 134, 134);
+      padding: 0 8.5% 0 5%;
+      color: rgb(100, 100, 100);
       font-family: "Arial", sans-serif;
       line-height: 1.1;
     }
@@ -58,4 +68,27 @@
 section {
   width: 100vw;
   padding: 0em 2em 0 3em;
+}
+
+@media screen and (max-width: 720px) {
+  #baner {
+    font-size: 0.9em;
+  }
+  #header {
+    flex-direction: column;
+    margin-top: 3em !important;
+
+    #h-txt {
+      font-size: 29px !important;
+
+      width: 100vw !important;
+    }
+    #hb-txt {
+      font-size: 29px !important;
+    }
+  }
+  #mensaje {
+    width: 100vw !important;
+    padding: 2em 0em 0 0em;
+  }
 }

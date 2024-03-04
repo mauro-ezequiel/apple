@@ -15,7 +15,7 @@ export const Bar = () => {
               <i className="bi bi-apple"></i>
             </Nav.Link>
             <Nav.Link href="#pricing" className="bi">
-              Tienda
+              Store
             </Nav.Link>
             <Nav.Link href="https://www.apple.com/mac/" className="bi">
               Mac
@@ -24,28 +24,34 @@ export const Bar = () => {
               Ipad
             </Nav.Link>
             <Nav.Link href="https://www.apple.com/iphone/" className="bi">
-              iphone
+              Iphone
             </Nav.Link>
             <Nav.Link href="https://www.apple.com/watch/" className="bi">
-              whatch
+              Watch
             </Nav.Link>
-            <Nav.Link href="https://www.apple.com /airpods/" className="bi">
-              airpods
+            <Nav.Link href="https://www.apple.com/watch/" className="bi">
+              Vision
+            </Nav.Link>
+            <Nav.Link
+              href="https://www.apple.com/apple-vision-pro/"
+              className="bi"
+            >
+              Airpods
             </Nav.Link>
             <Nav.Link href="https://www.apple.com/tv-home/" className="bi">
-              Tv y casa
+              TV & Home
             </Nav.Link>
-            <Nav.Link href="https://www.apple.com/ apple/" className="bi">
-              apple
+            <Nav.Link href="https://www.apple.com/services/" className="bi">
+              Entertainment
             </Nav.Link>
             <Nav.Link
               href="https://www.apple.com/shop/accessories/all"
               className="bi"
             >
-              accesorios
+              Accessories
             </Nav.Link>
             <Nav.Link href="https://support.apple.com/" className="bi">
-              soportes
+              Support
             </Nav.Link>
             <Nav.Link href="x" className="bi">
               <i className="bi bi-search"></i>
